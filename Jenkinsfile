@@ -66,7 +66,7 @@ print('All tests passed')
 
                     sh '''
 
-                    scp -o StrictHostKeyChecking=no calculator.py ec2-user@51.21.1.124:/home/ec2-user/
+                    scp -o StrictHostKeyChecking=no calculator.py ec2-user@13.51.86.137:/home/ec2-user/
 
                     '''
 
