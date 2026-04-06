@@ -21,10 +21,7 @@ pipeline {
                     python3 -c "
 from calculator import add, multiply, subtract, divide
 
-print(add(2,3))
-print(multiply(2,3))
-print(subtract(5,2))
-print(divide(10,2))
+assert calculator.add(2,3)==5
 "
                 '''
             }
