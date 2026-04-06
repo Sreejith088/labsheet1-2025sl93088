@@ -21,7 +21,17 @@ pipeline {
                     python3 -c "
 from calculator import add, multiply, subtract, divide
 
-assert calculator.add(2,3)==5
+assert add(2,3) == 5
+
+assert multiply(2,3) == 6
+
+assert subtract(5,2) == 3
+
+assert divide(10,2) == 5
+ 
+print('All tests passed')
+
+ 
 "
                 '''
             }
